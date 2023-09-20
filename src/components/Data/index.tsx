@@ -17,14 +17,18 @@ export const Reviews = [
     img: SmCup,
     subheader: "What other people are saying!",
   },
+];
+
+export const Cardz = [
   {
-    text: "“Indulge in the sublime experience of Coffee Borcelle, where every sip is a journey to flavor paradise. Crafted with precision, our rich blends ignite the senses and redefine coffee appreciation.”",
+    text: "“Indulge in the sublime experience of Coffee Borcelle, where every sip is a journey to flavor paradise. Crafted with precision,  the senses and redefine coffee appreciation.”",
     author: "@elonmusk",
   },
   {
     text: "“Discover a world of taste with Coffee Brocelle. Each cup is a masterpiece, blending aromas and flavors that dance on your palate. Join us in celebrating coffee at its finest.”",
     author: "@JeffBezos",
   },
+
   {
     text: "“Welcome to the heart and soul of coffee passion –Coffee Borcelle. Our carefully curated beans are an ode to craftsmanship, brewing a story of perfection in every cup.”",
     author: "@MrBeast",

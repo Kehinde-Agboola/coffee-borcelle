@@ -10,15 +10,15 @@
   color: #000000;
 }
 .card {
-  /* background: white; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  max-width: 1240px;
   margin: 0 auto;
-  max-width: 1024px;
-  gap: 2rem;
+}
+.shadow {
+  box-shadow: 40px 40px 100px 0px #00000040;
+
+  box-shadow: -40px -40px 100px 0px #00000040;
 }
 section {
   max-width: 1340px;
   margin: 0 auto;
-  /* padding: 2rem 2rem; */
 }
