@@ -1,4 +1,3 @@
-import { DisData } from "../Data";
 import { Contact } from "../Ui/Contact";
 import { SiteMap } from "../Ui/Home/SiteMap";
 import { Media } from "../Ui/Home/Media";
