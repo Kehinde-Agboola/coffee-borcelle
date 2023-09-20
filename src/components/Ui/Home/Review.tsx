@@ -15,7 +15,7 @@ export const Review = () => {
                     </h1>
                     <img src={r.img} alt="" />
                   </div>
-                  <h2 className="font-poppins text-white text-[2rem]">
+                  <h2 className="font-poppins w-[90%] mx-auto md:w-full text-white text-[2rem]">
                     {r.subheader}
                   </h2>
                 </div>
