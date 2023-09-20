@@ -1,14 +1,15 @@
 import { Reviews } from "../../Data";
+import { Cards } from "./Cards";
 export const Review = () => {
   return (
     <>
-      <main className="bg-cardbg text-white">
+      <main className="bg-cardbg text-white py-[4rem]">
         <section className="text-center">
           {Reviews?.map((r, index) => {
             return (
               <div key={index}>
                 <div>
-                  <div className="flex gap-[1rem] justify-center items-center">
+                  <div className="flex justify-center items-center">
                     <h1 className="font-mom font-bold text-white text-[3rem]">
                       {r.header}
                     </h1>
@@ -18,12 +19,7 @@ export const Review = () => {
                     {r.subheader}
                   </h2>
                 </div>
-                <div className="card">
-                  <div className="bg-card rounded-xl shadow-xl p-6">
-                    <p className="text-[15px]  font-inter">{r.text}</p>
-                    <p className="text-author font-bold">{r.author}</p>                                     
-                  </div>
-                </div>
+                <Cards />
               </div>
             );
           })}
