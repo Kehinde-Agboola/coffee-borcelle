@@ -13,10 +13,8 @@
   max-width: 1240px;
   margin: 0 auto;
 }
-.shadow {
-  box-shadow: 40px 40px 100px 0px #00000040;
-
-  box-shadow: -40px -40px 100px 0px #00000040;
+.box-shadow {
+  box-shadow: 15px 10px 30px 0px #00000040;
 }
 section {
   max-width: 1340px;
