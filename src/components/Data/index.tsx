@@ -1,4 +1,6 @@
 import SmCup from "../../assets/sm-coffee-cup.svg";
+import { BiPhoneCall } from "react-icons/bi";
+import { BsEnvelope } from "react-icons/bs";
 import Cup from "../../assets/coffee-cup.svg";
 export const DisData = [
   {
@@ -32,5 +34,39 @@ export const Cardz = [
   {
     text: "“Welcome to the heart and soul of coffee passion –Coffee Borcelle. Our carefully curated beans are an ode to craftsmanship, brewing a story of perfection in every cup.”",
     author: "@MrBeast",
+  },
+];
+
+export const Link = [
+  {
+    title: "- Home",
+    pathname: "/",
+  },
+  {
+    title: "- About Us",
+    pathname: "/aboutUs",
+  },
+  {
+    title: "- Features",
+    pathname: "/features",
+  },
+  {
+    title: "- Purchase",
+    pathname: "/purchase",
+  },
+  {
+    title: "- Contact Us",
+    pathname: "/contactUs",
+  },
+];
+
+export const Socials = [
+  {
+    icons: BiPhoneCall,
+    size: 30,
+  },
+  {
+    icons: BsEnvelope,
+    size: 30,
   },
 ];
