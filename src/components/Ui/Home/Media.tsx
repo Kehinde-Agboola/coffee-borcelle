@@ -1,8 +1,6 @@
 import { PiPhoneCallLight } from "react-icons/pi";
 import { BsEnvelope } from "react-icons/bs";
 import Logo from "../../../assets/logo.png";
-
-const style = { color: "white", fontSize: "1.5em" };
 export const Media = () => {
   return (
     <>
