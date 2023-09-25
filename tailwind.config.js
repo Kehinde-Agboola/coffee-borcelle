@@ -17,6 +17,8 @@ export default {
         text: "#1B0B0B",
         button: "#2F1F14",
         author: "#0A424F",
+        navback: "#6F4436",
+        hero: "#2F1F14",
       },
     },
   },

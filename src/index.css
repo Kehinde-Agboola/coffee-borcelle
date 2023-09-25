@@ -9,6 +9,14 @@
   font-size: 14px;
   color: #000000;
 }
+a {
+  list-style: none;
+  font-size: 24px;
+  font-family: "inter";
+  line-height: 29.05px;
+  color: white;
+}
+
 .card {
   max-width: 1024px;
   margin: 0 auto;
