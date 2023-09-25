@@ -15,7 +15,7 @@ export const Navigation = () => {
           <div className={`$ flex items-center justify-between w-full gap-16`}>
             {/* LEFT SIDE */}
 
-            <img src={Logo} alt="" className="w-[15%]" />
+            <img src={Logo} alt="" className="w-[25%] md:w-[15%]" />
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
               <div className={`${flexBetween}  `}>
@@ -51,7 +51,7 @@ export const Navigation = () => {
               </div>
             ) : (
               <button
-                className="rounded-full bg-secondary-500 p-2"
+                className="rounded-full bg-card p-2"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <Bars3Icon className="h-6 w-6 text-white" />
