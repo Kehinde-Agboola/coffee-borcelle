@@ -1,7 +1,7 @@
 import { DisData } from "../../Data";
 export const Discover = () => {
   return (
-    <main className="bg-card py-[3rem]">
+    <main className="bg-card py-[3rem] xl:-mt-[28rem]">
       {DisData?.map((l, index) => {
         return (
           <section
